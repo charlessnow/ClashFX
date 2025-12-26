@@ -3,8 +3,8 @@ lane :build do
 addKeyChain
 
 build_app(
-  workspace: "ClashX.xcworkspace",
-  scheme: "ClashX",
+  workspace: "ClashFX.xcworkspace",
+  scheme: "ClashFX",
   export_method: "developer-id",
   skip_package_pkg: "false",
   clean: "true",
@@ -14,8 +14,8 @@ end
 
 lane :check do
   build_app(
-    workspace: "ClashX.xcworkspace",
-    scheme: "ClashX",
+    workspace: "ClashFX.xcworkspace",
+    scheme: "ClashFX",
     codesigning_identity: "-",
     export_method: "developer-id",
     skip_package_pkg: "true",
@@ -30,11 +30,11 @@ lane :addKeyChain do
     puts("create custom keychain")
 
     delete_keychain(
-      name: "clashBuild"
-    ) if File.exist? File.expand_path("~/Library/Keychains/clashBuild-db")
+      name: "clashFXBuild"
+    ) if File.exist? File.expand_path("~/Library/Keychains/clashFXBuild-db")
 
     create_keychain(
-      name: "clashBuild",
+      name: "clashFXBuild",
       default_keychain: false,
       unlock: true,
       timeout: 3600,
@@ -44,7 +44,7 @@ lane :addKeyChain do
     
     import_certificate(
       certificate_path: ".github/certs/dist.p12",
-      keychain_name:"clashBuild",
+      keychain_name:"clashFXBuild",
       keychain_password:"password",
       certificate_password:""
     )

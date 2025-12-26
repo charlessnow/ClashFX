@@ -30,9 +30,9 @@ cat > "$APPCAST_FILE" << EOF
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
-    <title>ClashX</title>
-    <link>https://charlessnow.github.io/ClashX/appcast.xml</link>
-    <description>Most recent ClashX updates</description>
+    <title>ClashFX</title>
+    <link>https://charlessnow.github.io/ClashFX/appcast.xml</link>
+    <description>Most recent ClashFX updates</description>
     <language>en</language>
     <item>
       <title>Version $VERSION</title>
@@ -44,7 +44,7 @@ cat > "$APPCAST_FILE" << EOF
       <sparkle:shortVersionString>$VERSION</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/charlessnow/ClashX/releases/download/$VERSION/ClashX.dmg"
+        url="https://github.com/charlessnow/ClashFX/releases/download/$VERSION/ClashFX.dmg"
         sparkle:version="$VERSION"
         sparkle:shortVersionString="$VERSION"
         type="application/octet-stream"
@@ -59,4 +59,4 @@ echo "📝 Next steps:"
 echo "1. Commit the changes: git add docs/appcast.xml && git commit -m 'Update appcast for version $VERSION'"
 echo "2. Push to GitHub: git push origin master"
 echo "3. Make sure GitHub Pages is enabled for the /docs folder"
-echo "4. Create a release with tag $VERSION and upload ClashX.dmg"
+echo "4. Create a release with tag $VERSION and upload ClashFX.dmg"

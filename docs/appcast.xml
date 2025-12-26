@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
-    <title>ClashX</title>
-    <link>https://charlessnow.github.io/ClashX/appcast.xml</link>
-    <description>Most recent ClashX updates</description>
+    <title>ClashFX</title>
+    <link>https://charlessnow.github.io/ClashFX/appcast.xml</link>
+    <description>Most recent ClashFX updates</description>
     <language>en</language>
     <item>
       <title>Version 1.119.0</title>
@@ -32,7 +32,7 @@
       <sparkle:shortVersionString>1.119.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/charlessnow/ClashX/releases/download/1.119.0/ClashX.dmg"
+        url="https://github.com/charlessnow/ClashFX/releases/download/1.119.0/ClashFX.dmg"
         sparkle:version="1.119.0"
         sparkle:shortVersionString="1.119.0"
         type="application/octet-stream"

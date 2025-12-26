@@ -1,7 +1,7 @@
 <h1 align="center">
-  <img src="https://github.com/charlessnow/ClashX/raw/master/clashx.png" alt="Clash" width="200">
+  <img src="https://github.com/charlessnow/ClashFX/raw/master/clashfx.png" alt="Clash" width="200">
   <br>
-  ClashX
+  ClashFX
   <br>
 </h1>
 
@@ -19,22 +19,22 @@ This project is based on code originally created by [yichengchen](https://github
 
 ## 🌐 Official Website
 
-**Official Website**: [https://clashx.tech](https://clashx.tech)
+**Official Website**: [https://clashfx.tech](https://clashfx.tech)
 
-- 📥 [Download Latest Version](https://clashx.tech/download)
-- 📖 [Documentation & Tutorial](https://clashx.tech/tutorial)
-- ❓ [FAQ](https://clashx.tech/tutorial#faq)
+- 📥 [Download Latest Version](https://clashfx.tech/download)
+- 📖 [Documentation & Tutorial](https://clashfx.tech/tutorial)
+- ❓ [FAQ](https://clashfx.tech/tutorial#faq)
 
 ---
 
 A rule-based proxy client for macOS based on Clash.
 
-ClashX aims to provide a simple and lightweight proxy client with an intuitive interface.
+ClashFX aims to provide a simple and lightweight proxy client with an intuitive interface.
 
 ## ⚠️ Notice
 
-- **Official Website**: Please visit the official website at **clashx.tech**.
-- ClashX / ClashX Pro is only a proxy tool and does not provide any proxy servers. For server-related issues or renewals, please contact your service provider.
+- **Official Website**: Please visit the official website at **clashfx.tech**.
+- ClashFX / ClashFX Pro is only a proxy tool and does not provide any proxy servers. For server-related issues or renewals, please contact your service provider.
 
 ## ✨ Features
 
@@ -48,9 +48,9 @@ ClashX aims to provide a simple and lightweight proxy client with an intuitive i
 
 ## 📥 Installation
 
-**ClashX Pro** comes with enhanced mode and other Clash Premium Core features.
+**ClashFX Pro** comes with enhanced mode and other Clash Premium Core features.
 
-Download from the [Releases](https://github.com/charlessnow/ClashX/releases) page.
+Download from the [Releases](https://github.com/charlessnow/ClashFX/releases) page.
 
 ## 🔨 Build from Source
 
@@ -76,7 +76,7 @@ Download from the [Releases](https://github.com/charlessnow/ClashX/releases) pag
 
 3. **Open and build**
    ```bash
-   open ClashX.xcworkspace
+   open ClashFX.xcworkspace
    # Build in Xcode (Cmd+R)
    ```
 
@@ -98,7 +98,7 @@ Go to Menu Bar → Config → More Settings and modify the corresponding port nu
 
 ### Customize Status Menu Icon
 
-Place your icon file at `~/.config/clash/menuImage.png`, then restart ClashX.
+Place your icon file at `~/.config/clash/menuImage.png`, then restart ClashFX.
 
 ### Change Default System Ignore List
 
@@ -131,7 +131,7 @@ script:
 
 ### Disable Notifications
 
-1. Go to System Settings and disable ClashX notification permissions
+1. Go to System Settings and disable ClashFX notification permissions
 2. Enable "Reduce Notifications" in Menu Bar → Config → More Settings
 
 **Note:** Not recommended as you may miss important error notifications.
@@ -144,7 +144,7 @@ script:
 ## ❓ FAQ
 
 **Q: How to get shell commands with external IP?**
-A: Click the ClashX menu icon and press `Option-Command-C`
+A: Click the ClashFX menu icon and press `Option-Command-C`
 
 ## 🤝 Contributing
 
@@ -156,4 +156,4 @@ See [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
-Based on the original ClashX project.
+Based on the original ClashFX project.
